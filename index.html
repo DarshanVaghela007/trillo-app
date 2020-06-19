@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>trillo &mdash; Your all-in-one booking app</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="images/tie-256x256.png" alt="trillo-logo" class="logo" />
+        <form action="#" class="search">
+          <input type="text" class="search-input" placeholder="Search hotels" />
+          <button class="search-button">
+            <svg class="search-icon">
+              <use xlink:href="images/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+        <nav class="user-nav">
+          <div class="user-nav-icon-box">
+            <svg class="user-nav-icon">
+              <use xlink:href="images/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav-notification">7</span>
+          </div>
+          <div class="user-nav-icon-box">
+            <svg class="user-nav-icon">
+              <use xlink:href="images/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav-notification">15</span>
+          </div>
+          <div class="user-nav-info">
+            <img
+              src="images/home.jpg"
+              alt="User photo"
+              class="user-nav-info-photo"
+            />
+            <span class="user-nav-name">Darshan Vaghela</span>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav-item side-nav-item-active">
+              <a href="#" class="side-nav-link">
+                <svg class="side-nav-icon">
+                  <use xlink:href="images/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Hotel</span>
+              </a>
+            </li>
+            <li class="side-nav-item">
+              <a href="#" class="side-nav-link">
+                <svg class="side-nav-icon">
+                  <use
+                    xlink:href="images/sprite.svg#icon-aircraft-take-off"
+                  ></use>
+                </svg>
+                <span>Flight</span>
+              </a>
+            </li>
+            <li class="side-nav-item">
+              <a href="#" class="side-nav-link">
+                <svg class="side-nav-icon">
+                  <use xlink:href="images/sprite.svg#icon-key"></use>
+                </svg>
+                <span>Car rental</span>
+              </a>
+            </li>
+            <li class="side-nav-item">
+              <a href="#" class="side-nav-link">
+                <svg class="side-nav-icon">
+                  <use xlink:href="images/sprite.svg#icon-map"></use>
+                </svg>
+                <span>Tours</span>
+              </a>
+            </li>
+          </ul>
+          <div class="legal">
+            &copy; 2020 by trillo. All rights reserved.
+          </div>
+        </nav>
+
+        <main class="hotel-view">
+          <div class="gallary">
+            <figure class="gallary-item">
+              <img src="images/home.jpg" alt="photo-1" class="gallary-photo" />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview-heading">
+              Hotel Shiv Shakti
+            </h1>
+            <div class="overview-stars">
+              <svg class="overview-icon-star">
+                <use xlink:href="images/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview-icon-star">
+                <use xlink:href="images/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview-icon-star">
+                <use xlink:href="images/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview-icon-star">
+                <use xlink:href="images/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview-icon-star">
+                <use xlink:href="images/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+            <div class="overview-location">
+              <svg class="overview-icon-location">
+                <use xlink:href="images/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Indira bridge, Jamnagar</button>
+            </div>
+            <div class="overview-rating">
+              <div class="overview-rating-average">8.6</div>
+              <div class="overview-rating-count">451 votes</div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

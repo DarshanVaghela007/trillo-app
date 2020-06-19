@@ -1,0 +1,18 @@
+{
+  "name": "trillo-app",
+  "version": "1.0.0",
+  "description": "scss practice using flex",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass scss/styles.scss css/styles.css -w",
+    "dev-server": "live-server",
+    "start": "npm-run-all --parallel  compile-sass dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Darshan Vaghela",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
